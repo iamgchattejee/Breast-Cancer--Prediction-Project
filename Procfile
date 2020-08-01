@@ -1,3 +1,3 @@
-  web: sh setup.sh && streamlit run iris_webapp.py
+  web: sh setup.sh && streamlit run Breast Cancer project.py
 
                 
