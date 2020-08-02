@@ -29,18 +29,18 @@ def output(pred):
               ## 🎯 RESULT
               """
               )
-      if pred == 0:
+      if pred == 1:
           st.text("""""")
           st.write(
                   """
-                  ## 👁️ Model Predicts That The Patient Has A BENIGN Tumor.
+                  ## 👁️ Model Predicts That The Patient Has A MALIGNANT Tumor.
                   """
                   )
       else:
           st.text("""""")
           st.write(
                   """
-                  ## 👁️ Model Predicts That The Patient Has A MALIGNANT Tumor.
+                  ## 👁️ Model Predicts That The Patient Has A BENIGN Tumor.
                   """
                   )
       st.write(
