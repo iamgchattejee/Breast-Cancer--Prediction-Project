@@ -112,7 +112,7 @@ def main():
             'Symmetry Worst':symmetry_worst,
             'Fractal Dimensions Worst':fractal_dimension_worst,
            }
-    features = pd.DataFrame(data)
+    features = pd.DataFrame(data,index=[0])
     prediction = classifier.predict(features.iloc[:1, :])
     output(prediction[0])
 
