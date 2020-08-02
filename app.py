@@ -16,7 +16,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.write("""
-# Breast Cancer Prediction.
+# Breast Cancer Prediction App.
 This app predicts the **Breast Cancer** type!
 """)
 
